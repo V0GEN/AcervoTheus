@@ -1,0 +1,43 @@
+ body {
+        color:#83a3a8 ;
+        background: rgb(31, 30, 30);
+        margin: 15px;
+        
+    }
+
+    header {
+        border-bottom: solid 3px #0cdbff;
+        padding: 5px;
+        font-size: 50px;
+        font-family: "New Amsterdam", sans-serif;
+    }
+    section {
+        background: #161d1c;
+        padding: 15px;
+        margin-top: 30px;
+        margin-left: 30px;
+        display: flex;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .texto {
+        margin-right: 25%;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid #0cdbff
+}
